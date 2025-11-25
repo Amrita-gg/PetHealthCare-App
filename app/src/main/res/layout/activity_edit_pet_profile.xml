@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Pet Name -->
+        <EditText
+            android:id="@+id/et_pet_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pet Name"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Pet Age -->
+        <EditText
+            android:id="@+id/et_pet_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pet Age"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Breed -->
+        <EditText
+            android:id="@+id/et_pet_breed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Breed"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Type -->
+        <EditText
+            android:id="@+id/et_pet_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Health Status -->
+        <EditText
+            android:id="@+id/et_pet_health_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Health Status"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Parent Experience -->
+        <EditText
+            android:id="@+id/et_pet_parent_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parent Experience"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Additional Notes -->
+        <EditText
+            android:id="@+id/et_pet_additional_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additional Notes"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:maxLines="5"
+            android:gravity="top"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Save Changes Button -->
+        <Button
+            android:id="@+id/btn_save_changes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/yellow"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

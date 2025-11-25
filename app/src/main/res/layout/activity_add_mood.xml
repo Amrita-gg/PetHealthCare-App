@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white"
+    tools:context=".activities.AddMoodActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Track Your Pet's Mood"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+        <!-- Pet Name Input -->
+        <EditText
+            android:id="@+id/etPetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your pet's name"
+            android:background="@drawable/edit_text_bg"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- Mood Selection -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="5dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Happy Mood -->
+            <Button
+                android:id="@+id/btnHappy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:drawableTop="@drawable/happy"
+                android:drawablePadding="8dp"
+                android:text="Happy"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <!-- Sad Mood -->
+            <Button
+                android:id="@+id/btnSad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:drawableTop="@drawable/sad"
+                android:drawablePadding="8dp"
+                android:text="Sad"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <!-- Hungry Mood -->
+            <Button
+                android:id="@+id/btnHungry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:drawableTop="@drawable/hungry"
+                android:drawablePadding="8dp"
+                android:text="Hungry"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <!-- Angry Mood -->
+            <Button
+                android:id="@+id/btnAngry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:drawableTop="@drawable/angry"
+                android:drawablePadding="8dp"
+                android:text="Angry"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <!-- Sick Mood -->
+            <Button
+                android:id="@+id/btnSick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:drawableTop="@drawable/sick"
+                android:drawablePadding="8dp"
+                android:text="Sick"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <!-- Sleepy Mood -->
+            <Button
+                android:id="@+id/btnSleepy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:drawableTop="@drawable/tiredandsleepy"
+                android:drawablePadding="8dp"
+                android:text="Sleepy"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+        </GridLayout>
+
+        <!-- Notes Section -->
+        <EditText
+            android:id="@+id/etMoodNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add notes about your pet's mood..."
+            android:background="@drawable/edit_text_bg"
+            android:padding="10dp"
+            android:minHeight="100dp"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Save Mood Button -->
+        <Button
+            android:id="@+id/btnSaveMood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Mood"
+            android:textSize="18sp"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Mood History Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mood History"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Mood History RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewMoodHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</ScrollView>

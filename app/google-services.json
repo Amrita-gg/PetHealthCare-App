@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "434798953044",
+    "firebase_url": "https://shopease-1c8f5-default-rtdb.firebaseio.com",
+    "project_id": "shopease-1c8f5",
+    "storage_bucket": "shopease-1c8f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434798953044:android:496f904a5c01fea7d8e3c1",
+        "android_client_info": {
+          "package_name": "com.example.pethealthcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA03gP1_S72wAmBFLWX9ABFxkTQeBjA44U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434798953044:android:1be9d7ad6f8b41b0d8e3c1",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA03gP1_S72wAmBFLWX9ABFxkTQeBjA44U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434798953044:android:4e8f21877e596191d8e3c1",
+        "android_client_info": {
+          "package_name": "com.example.shopease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA03gP1_S72wAmBFLWX9ABFxkTQeBjA44U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434798953044:android:1ddd5e5e92ced42ed8e3c1",
+        "android_client_info": {
+          "package_name": "com.example.shopease1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA03gP1_S72wAmBFLWX9ABFxkTQeBjA44U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

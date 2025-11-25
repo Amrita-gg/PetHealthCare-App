@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Meal Name Input -->
+    <EditText
+        android:id="@+id/meal_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="10dp"
+        android:textSize="16sp"
+        android:hint="Meal Name"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Calories Input -->
+    <EditText
+        android:id="@+id/calories_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="10dp"
+        android:textSize="16sp"
+        android:hint="Calories"
+        android:inputType="number"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Save Meal Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save_meal_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Meal"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:backgroundTint="@color/yellow"
+        android:paddingVertical="12dp"/>
+
+</LinearLayout>
